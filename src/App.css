@@ -22,7 +22,7 @@
 } */
 
 .SpecialButton{
-    background:grey;
+    background:skyblue;
     border-radius:50%;
     height:50px;
     width:50px;
@@ -38,8 +38,14 @@
 
 .SpecialBox{
     width:250px;
+    display:flex;
+    flex-direction: row;
 }
 
+.Operator{
+    display:flex;
+    flex-direction: column;
+}
 
 .NumCount{
     display:flex;
